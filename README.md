@@ -1,8 +1,8 @@
-#🏠 House Price Predictor
+🏠 House Price Predictor
 
 A machine learning–based web application that predicts house prices based on key features such as location, size, number of rooms, and other relevant parameters. The project demonstrates the complete ML pipeline — from data preprocessing and model training to deployment using Streamlit.
 
-🚀 #Features
+🚀 Features
 
 End-to-end machine learning pipeline
 
@@ -14,7 +14,7 @@ Modular and clean project structure
 
 Ready for cloud deployment
 
-🛠️ #Tech Stack
+🛠️ Tech Stack
 
 Python
 
@@ -28,7 +28,7 @@ Heroku (used earlier for deployment)
 
 Pickle (model serialization)
 
-📂 #Project Structure
+📂 Project Structure
 ├── app.py                 # Streamlit application
 ├── model_housing.pkl      # Trained ML model
 ├── housing_data.pkl       # Processed dataset
@@ -37,7 +37,7 @@ Pickle (model serialization)
 ├── setup.sh               # Deployment setup
 └── README.md
 
-▶️ #How to Run Locally
+▶️ How to Run Locally
 
 Clone the repository:
 
@@ -54,7 +54,7 @@ Run the Streamlit app:
 
 streamlit run app.py
 
-🌐 #Deployment
+🌐 Deployment
 
 The application was previously deployed using Heroku
 
@@ -68,7 +68,7 @@ Render
 
 Railway
 
-📌 #Key Learnings
+📌 Key Learnings
 
 Data preprocessing and feature engineering
 
@@ -80,7 +80,7 @@ Building ML web apps with Streamlit
 
 Cloud deployment workflows
 
-👤 #Author
+👤 Author
 
 Shreyas Tirwadkar
 
