@@ -1,89 +1,86 @@
-🏠 House Price Predictor
+# 🏠 House Price Predictor 💰
 
-A machine learning–based web application that predicts house prices based on key features such as location, size, number of rooms, and other relevant parameters. The project demonstrates the complete ML pipeline — from data preprocessing and model training to deployment using Streamlit.
+A machine learning–based web application that predicts house prices based on key features such as location, size, number of rooms, and other relevant parameters.  
+This project demonstrates a complete ML pipeline — from data preprocessing and model training to deployment using Streamlit.
 
-🚀 Features
+---
 
-End-to-end machine learning pipeline
+## 🚀 Features
 
-User-friendly web interface built with Streamlit
+- End-to-end machine learning pipeline  
+- Data preprocessing and feature engineering  
+- Regression model for house price prediction  
+- Interactive and user-friendly UI built with Streamlit  
+- Modular and clean project structure  
+- Deployment-ready application  
 
-Trained regression model for accurate price prediction
+---
 
-Modular and clean project structure
+## 🛠️ Tech Stack
 
-Ready for cloud deployment
+- **Python**
+- **Scikit-learn**
+- **Pandas**
+- **NumPy**
+- **Streamlit**
+- **Pickle**
+- **Heroku** (used earlier for deployment)
 
-🛠️ Tech Stack
+---
 
-Python
+## 📂 Project Structure
 
-Scikit-learn
+    ├── app.py                 # Streamlit application
+    ├── model_housing.pkl      # Trained ML model
+    ├── housing_data.pkl       # Processed dataset
+    ├── requirements.txt       # Project dependencies
+    ├── Procfile               # Deployment configuration
+    ├── setup.sh               # Deployment setup
+    └── README.md              # Project documentation
 
-Pandas & NumPy
+---
 
-Streamlit (for web interface)
+## ▶️ How to Run Locally
 
-Heroku (used earlier for deployment)
+1. **Clone the repository**
 
-Pickle (model serialization)
+       git clone https://github.com/ShR19eYas/house-price-predictor.git
+       cd house-price-predictor
 
-📂 Project Structure
-├── app.py                 # Streamlit application
-├── model_housing.pkl      # Trained ML model
-├── housing_data.pkl       # Processed dataset
-├── requirements.txt       # Project dependencies
-├── Procfile               # Deployment configuration
-├── setup.sh               # Deployment setup
-└── README.md
+2. **Install dependencies**
 
-▶️ How to Run Locally
+       pip install -r requirements.txt
 
-Clone the repository:
+3. **Run the Streamlit app**
 
-git clone https://github.com/ShR19eYas/house-price-predictor.git
-cd house-price-predictor
+       streamlit run app.py
 
+---
 
-Install dependencies:
+## 🌐 Deployment
 
-pip install -r requirements.txt
+- The application was previously deployed using **Heroku**
+- Deployment was discontinued due to platform pricing changes
+- The project is fully deployment-ready and can be hosted on:
+  - Streamlit Community Cloud
+  - Render
+  - Railway
 
+---
 
-Run the Streamlit app:
+## 📌 Key Learnings
 
-streamlit run app.py
+- Data preprocessing and feature engineering  
+- Regression model training and evaluation  
+- Model serialization using Pickle  
+- Building ML web applications with Streamlit  
+- Cloud deployment workflows  
 
-🌐 Deployment
+---
 
-The application was previously deployed using Heroku
+## 👤 Author
 
-Deployment was discontinued due to platform pricing changes
+**Shreyas Tirwadkar**
 
-The project remains fully deployment-ready and can be hosted on platforms like:
-
-Streamlit Community Cloud
-
-Render
-
-Railway
-
-📌 Key Learnings
-
-Data preprocessing and feature engineering
-
-Regression model training and evaluation
-
-Model serialization and reuse
-
-Building ML web apps with Streamlit
-
-Cloud deployment workflows
-
-👤 Author
-
-Shreyas Tirwadkar
-
-GitHub: ShR19eYas
-
-LinkedIn: https://linkedin.com/in/shreyas-tirwadkar-8a395332a
+- GitHub: https://github.com/ShR19eYas  
+- LinkedIn: https://linkedin.com/in/shreyas-tirwadkar-8a395332a
