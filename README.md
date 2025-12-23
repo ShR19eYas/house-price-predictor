@@ -1,4 +1,4 @@
-🏠 #House Price Predictor
+#🏠 House Price Predictor
 
 A machine learning–based web application that predicts house prices based on key features such as location, size, number of rooms, and other relevant parameters. The project demonstrates the complete ML pipeline — from data preprocessing and model training to deployment using Streamlit.
 
